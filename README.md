@@ -14,7 +14,7 @@ Fuel efficiency    => toFixed(2)
 
 Formula
 
- (Distance/fuel-consumption ) * 100 
+ (fuel-consumption/distance ) * 100 
 
 
 
