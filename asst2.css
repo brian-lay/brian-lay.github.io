@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+
+::after , ::before{
+  box-sizing: inherit;
+}
+
+
+
+
+body{
+  background: -webkit-linear-gradient(to left, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+
+  border: 1px solid black;
+  padding: 25px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 300px;
+  
+}
+
+
+h4{
+  font-family: sans-serif;
+  font-weight: 40px;
+  font-size: 20px;
+  text-align:center;
+  }
+
+
+   #distance, #fuel-used{
+   
+    border-style: none;
+    background: none;
+    text-decoration: none;
+    outline: none;
+    width: 120px;
+    border-bottom: 1px solid black;
+
+
+  }
+
+  #distance:focus, #fuel-used:focus{
+    width: 200px;
+    transition: 0.2s;
+    
+
+  }
+  ::placeholder{
+    text-align: right;
+    
+  }
+
+
+.container > p {
+  display: flex;
+  justify-content: center;
+}
+
+
+#calc{
+  width: 100px;
+  padding: 10px;
+  align-self: center;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid ;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+
+#calc:hover{
+  cursor: pointer;
+  color: #2C3E50;
+  background-color: white;
+  transition: 0.3s;
+  
+
+}
+
