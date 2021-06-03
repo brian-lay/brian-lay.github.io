@@ -26,6 +26,8 @@ body{
 
 .container{
 
+  background-color: aliceblue;
+
   border: 1px solid black;
   padding: 25px;
   display: flex;  
@@ -89,8 +91,8 @@ h4{
 
 #calc:hover{
   cursor: pointer;
-  color: #2C3E50;
-  background-color: white;
+  color: black;
+  background:linear-gradient(to left, #FD746C, #2C3E50); ;
   transition: 0.3s;
   
 
