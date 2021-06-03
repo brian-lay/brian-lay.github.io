@@ -1,23 +1,16 @@
 # fuelCalculator
 
-
-A basic function of fuel efficiency calculator 
-
-Input 
-Distance               by km 
-Fuel-consumption    by litre
+Input = distance & fuel usage 
+output = computed fuel efficiency and catergerize 
 
 
-Output 
-Fuel efficiency    => toFixed(2)
+HTML
+enter input 
+compute (button)
 
 
-Formula
-
- (Distance/fuel-consumption ) * 100 
-
-
-
-Yet to fixed problem 
--error handling  (typing distance more 1000km )
--inout error handling 
+javascript
+error out empty text field 
+error out  input == NaN 
+compute result   
+display 
