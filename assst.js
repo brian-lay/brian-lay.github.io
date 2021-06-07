@@ -12,10 +12,11 @@ var show = document.getElementById('display');
 
 // error out empty string 
       if ( dis == "" || cons == "" ){
-          alert(`pls enter all fields`); 
+          alert("pls enter all fields".toUpperCase())
+  
       }   // error out alphabetic 
       else if ( isNaN(dis) || isNaN(cons)){
-        alert(`pls enter number `); 
+        alert(`pls enter number `.toUpperCase()); 
      }   // ensure is within regular range 
       else if (dis >= 1000 || cons >= 500){
       show.innerHTML = `the km has exceeded the maximum limits pls re-enter`
