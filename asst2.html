@@ -8,13 +8,17 @@
   <link rel="stylesheet" href="asst2.css">
 </head>
 <body>
+   <!---div act as a container holder for fuel calculator  -->
   <div class="container">
     <h4>Fuel-Efficiency</h4>
+    <!-- an display panel for what data should be inputed into the input-text box-->
     <label for="distance">Distance :</label>
+    <!-- an input text-box ---->
     <p><input id="distance" type="text" placeholder="Km"   required></p>
     <label>Fuel-Used : </label>
     <p><input id="fuel-used" type="text" placeholder="Litre" required></p>
     <div id="display">  </div>
+    <!--an button which link to calcl() function in assst.js (javascript file ) -->
     <button id="calc" onClick="calcl()">calculate</button>
     <script src="assst.js"></script>
  </div>

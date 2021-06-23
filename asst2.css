@@ -10,16 +10,16 @@
 }
 
 
-
-
 body{
-  background: -webkit-linear-gradient(to left, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* setting back ground color */
+  background: -webkit-linear-gradient(to left, #FD746C, #2C3E50);  
+  background: linear-gradient(to left, #FD746C, #2C3E50); 
   padding: 0%;
   margin: 0%;
 }
 
 body{
+  /* use of flex-box to keep container in the middle */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +27,7 @@ body{
 }
 
 .container{
-
-  background-color: aliceblue;
+    background-color: aliceblue;
 
   border: 1px solid black;
   padding: 25px;
@@ -40,8 +39,8 @@ body{
   
 }
 
-
 h4{
+  /*set font family and font size */
   font-family: sans-serif;
   font-weight: 40px;
   font-size: 20px;
