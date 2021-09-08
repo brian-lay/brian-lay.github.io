@@ -41,7 +41,8 @@ var show = document.getElementById('display');
     }
 }
 
-
+navigator.geolocation.getCurrentLocation((position) => p = position) ; 
+console.log(p.coords) ; 
       
   
 
